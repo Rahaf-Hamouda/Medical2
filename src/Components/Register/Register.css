@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    background: url('../../assets/medical.jpg');
+    background-position: center;
+    background-size: cover;
+}
+.wrapper_Register {
+    height: 43rem;
+    width: 420px;
+    background: transparent;
+    border: 2px rgba(255,255,255, .2);
+    backdrop-filter: blur(30px);
+    box-shadow: 0 0 10px rgba(0,0, 0, .2);
+    color: #01343d;
+    border-radius: 10px;
+    padding: 5px 40px;
+}
+.wrapper_Register h1 {
+        font-size: 30px;
+        text-align: center;
+    }
+.wrapper_Register .input-box
+        {
+        position: relative;
+        width: 100%;
+        height: 50px;
+        background: transparent;
+        margin: 20px 0;
+    }
+.input-box input {
+    width: 90%;
+    height: 100%;
+    background: transparent;
+    outline: none;
+    border: 2px solid #3c5b61d6;
+    border-radius: 40px;
+    font-size: 16px;
+    color: #01343d;
+    padding: 20px 45px 20px 20px;
+}
+.input-box input ::placeholder {
+        color: #01343d;
+    }
+.input-box .icon {
+    position: relative !important;
+    right: 40px !important;
+    top: 20% !important;
+    font-size: 16px;
+}
+.wrapper_Register button {
+    margin: 10px;
+    margin-top: inherit;
+    width: 90%;
+    height: 40px;
+    background: #8ba4a9;
+    border: none;
+    outline: none;
+    border-radius: 40px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, .1);
+    cursor: pointer;
+    font-size: 15px;
+    color: #01343d;
+    font-weight: 600;
+}
+.wrapper_Register .register-link {
+    font-size: 14px;
+    text-align: center;
+    margin: 20px 0 15px;
+}
+.register-link p a {
+    color: #01343d;
+    text-decoration: none;
+    font-weight: 600;
+}
+.register-link p a:hover {
+        text-decoration: underline;
+    }

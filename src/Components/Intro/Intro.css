@@ -1,0 +1,84 @@
+#intro {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0 auto;
+    overflow: hidden;
+    position: sticky;
+    background: #D8EFD3;
+}
+
+.bg {
+    margin: 25px;
+    position: absolute;
+    top: 0rem;
+    right: 5rem;
+    height: 75vh;
+}
+
+.introConent {
+    height: calc(90vh - 2rem);
+    width: 100vw;
+    padding: 4rem;
+    font-size: 3rem;
+    font-weight: 700;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.introText {
+    color: #186F65;
+}
+.introName {
+    color: #95D2B3;
+}
+
+.introPara {
+    padding: 20px;
+    font-size: large;
+    font-weight: 500;
+    letter-spacing: 1px;
+    color: #186F65;
+}
+
+.btn {
+    cursor: pointer;
+    background: #186F65;
+    color: #A3C9AA;
+    border: 2px rgba(255,255,255, .2);
+    box-shadow: 0 0 10px rgba(0,0, 0, .3);
+    border-radius: 2rem;
+    margin: 1rem 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 12rem;
+    height: 3rem;
+    font-size: 1rem;
+}
+
+    .btn:hover {
+        letter-spacing: 0.1em;
+        transform: scale(1.03);
+        transition: 0.3s;
+    }
+
+.logo {
+    object-fit: cover;
+    margin: 0 0.25rem;
+    height: 2rem;
+    width: 2rem;
+}
+
+@media screen and (max-width:720px) {
+    .bg {
+        display: none;
+    }
+
+    .introConent {
+        font-size: 10vw;
+    }
+
+    .hello {
+        font-size: 4.5vw;
+    }
+}
